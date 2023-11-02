@@ -1,0 +1,19 @@
+1)  Inicio
+2)  valor_kilovatio_hora, d[0-n]
+3)  kilovatios_consumidos, d[0-n]
+4)  edad, i[0-n]
+5)  total, d[0-n]
+6)  descuento, d[0-n]
+7)  <<"Ingresar el valor de kilovatio/hora"
+8)  >>valor_kilovatio_hora
+9)  <<"Ingresar el valor de kilovatios consumidos en el mes"
+10) >>kilovatios_consumidos
+11) <<"Ingrese su edad"
+12) >>edad
+13) descuento <-- 0.10
+14) total <-- (valor_kilovatio_hora * kilovatios_consumidos)
+15) Si edad > 65 entonces
+16)    total <-- total - (total * descuento)
+17) Fin si
+18) <<"El valor total a pagar es:" + " " total
+19) Fin
