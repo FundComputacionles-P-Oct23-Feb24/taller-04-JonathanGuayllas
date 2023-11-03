@@ -1,0 +1,15 @@
+1)  Inicio
+2)  grados_c, d[0-n]
+3)  grados_f, d[0-n]
+4)  grados_k, d[0-n]
+5)  <<"Ingresar la temperatura en °C"
+6)  >>grados_c
+7)  Si grados_c >= 0 and grados_c <= 100 entonces
+8)     grados_f <-- 9/5 * grados_c + 32
+9)     grados_k <-- grados_c + 273.12
+10)    <<"La temperatura en grados Farenheit es:" + " " grados_f
+11)    <<"La temperatura en grados Kelvin es:" + " " grados_k
+12) De lo contrario
+13)    <<"La temperatura ingresada no está en el rango permitido. El rango permitido es (0 a 100°C)."  
+14) Fin si
+15) Fin
