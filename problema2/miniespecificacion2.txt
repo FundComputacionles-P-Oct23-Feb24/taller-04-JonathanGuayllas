@@ -1,0 +1,19 @@
+1)  Inicio
+2)  descripcion, x[1000], [{a-z}, {BS}, {A-Z}] 
+3)  cantidad_requerida, i[0-n]
+4)  precio_unitario, d[0-n]
+5)  descuento, d[0-n]
+6)  precio_total, d[0-n]
+7)  <<"Ingresar la descripción del producto"
+8)  >>descripcion
+9)  <<"Ingresar la cantidad requerida"
+10) >>cantidad_requerida
+11) <<"Ingresar el precio unitario"
+12) >>precio_unitario
+13) descuento <-- 0.15
+14) precio_total <-- cantidad_requerida * precio_unitario
+15) Si cantidad_requerida > 50 entonces
+16)    precio_total <-- precio_total - (precio_total * descuento)
+17) Fin si
+18) <<"El valor total a pagar es:" + " " precio_total
+19) Fin
