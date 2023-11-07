@@ -10,6 +10,7 @@
 10)    <<"La temperatura en grados Farenheit es:" + " " grados_f
 11)    <<"La temperatura en grados Kelvin es:" + " " grados_k
 12) De lo contrario
-13)    <<"La temperatura ingresada no está en el rango permitido. El rango permitido es (0 a 100°C)."  
+13)    <<"La temperatura ingresada no está en el rango permitido. 
+          El rango permitido es (0 a 100°C)."  
 14) Fin si
 15) Fin
