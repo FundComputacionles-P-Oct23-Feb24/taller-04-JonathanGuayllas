@@ -1,0 +1,15 @@
+1) Inicio 
+2) Ingrese el número de litros de agua consumidos en el mes
+3) Ingrese el costo de cada litro de agua
+4) Multiplicar el valor de el número de litros de agua consumidos en el mes * 
+   el costo de cada litro de agua, obteniendo el valor total mensual del agua
+5) Ingrese el número de minutos gastados en el mes
+6) Ingrese el costo de cada minuto 
+7) Multiplicar el número de minutos gastados en el mes * el costo de cada minuto,
+   obteniendo el valor total mensual del teléfono
+8) Sumar el valor mensual del agua y el valor mensual del teléfono, obteniendo el 
+   total a pagar mensual
+9) Si la persona es menor a 20 años realizamos un descuento del 20%al total a pagar 
+   mensual. Si es mayor o igual a 20 años no realizamos descuento al total a pagar 
+   mensual.
+10)Fin

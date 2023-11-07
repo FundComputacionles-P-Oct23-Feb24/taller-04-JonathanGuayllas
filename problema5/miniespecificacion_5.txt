@@ -1,0 +1,33 @@
+1)  Inicio 
+2)  agua, d[0-n]
+3)  telefono, d[0-n]
+4)  litros_consumidos, i[0-n]
+5)  costo_litro, d[0-n]
+6)  minutos_gastados, i[0-n]
+7)  costo_minuto, d[0-n]
+8)  descuento, d[0-n]
+9)  edad, i[0-n]
+10) total_mensual, d[0-n]
+11) <<"Ingrese el número de litros de agua consumidos en el mes"
+12) >>litros_consumidos
+13) <<"Ingrese el costo de cada litro de agua"
+14) >>costo_litro
+15) <<"Ingrese el número de minutos gastados en el mes"
+16) >>minutos_gastados
+17) <<"Ingrese el costo de cada minuto"
+18) >>costo_minuto
+19) <<"Ingrese su edad"
+20) >>edad
+21) agua <-- litros_consumidos * costo_litro
+22) telefono <-- minutos_gastados * costo_minuto
+23) total_mensual <-- agua + telefono  
+24) Si edad < 20 entonces 
+25)    descuento <-- total_mensual * 0.20
+26)    total_mensual <-- total_mensual - descuento
+27)    <<"Recibe un descuento del 20% por ser menor de 20 años"
+28) Fin si
+29) <<"El valor total mensual a pagar del agua es:" + " " agua
+30) <<"El valor total mensual a pagar del  teléfono es:" + " " telefono
+31) <<"El valor total mensual a pagar es:" + " " total_mensual
+32) Fin 
+     
